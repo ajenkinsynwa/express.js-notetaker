@@ -32,7 +32,7 @@ class Store {
         if (!title || !text){
             throw new Error ("title and text cannot be blank");
         }
-        const newNote = { title,text,id: { v4: uuidv4 } };
+        const newNote = { title,text,id: uuidv4()  };
 
         return this.getNotes()
         .then((notes)=> [...notes, newNote])

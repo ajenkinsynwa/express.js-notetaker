@@ -15,6 +15,7 @@ app.use(express.static("public"));
 app.use("/assets", express.static(__dirname + "/assets"));
 app.use("/api", apiRoutes);
 app.use("/", htmlRoutes);
+app.delete("/notes/:id",);
 
 
 
