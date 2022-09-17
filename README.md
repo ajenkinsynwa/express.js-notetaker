@@ -17,5 +17,5 @@ MAIN PAGE
 ![note-taker-main page](/images/app2.png)
 
 # Heroku Link
-[Heroku Link](https://stark-retreat-44656.herokuapp.com/)
+[Heroku Link](https://mighty-ocean-87757.herokuapp.com)
 
